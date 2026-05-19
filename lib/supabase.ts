@@ -55,6 +55,21 @@ export interface Story {
   created_at: string;
 }
 
+export interface CareItem {
+  id: string;
+  type: 'fabric' | 'mistake';
+  emoji?: string;
+  name: string;
+  tags?: string[];
+  tips?: string[];
+  caution?: string;
+  wrong_text?: string;
+  right_text?: string;
+  order_number: number;
+  is_active: boolean;
+  created_at: string;
+}
+
 export interface Service {
   id: string;
   name: string;

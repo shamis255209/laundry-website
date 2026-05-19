@@ -154,7 +154,10 @@ export default function Footer() {
       <div className="border-t border-[var(--color-neutral-800)]">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[var(--color-neutral-400)]">
-            <p>© {currentYear} {SITE_INFO.name}. 版權所有</p>
+            <p>
+              <Link href="/admin" className="hover:opacity-60 transition-opacity" tabIndex={-1} aria-hidden="true">©</Link>
+              {' '}{currentYear} {SITE_INFO.name}. 版權所有
+            </p>
             <div className="flex gap-6">
               <Link href="/privacy" className="hover:text-[var(--color-primary-300)] transition-colors">
                 隱私權政策
