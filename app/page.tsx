@@ -15,7 +15,7 @@ export default function Home() {
             className="text-5xl md:text-7xl font-bold mb-6 font-[var(--font-heading)] text-[var(--color-neutral-900)]"
             style={{ animation: 'fadeInUp 1s ease-out' }}
           >
-            您的衣物，我們的藝術
+            您的衣物，我們的藝術，對自己好一點
           </h1>
           <p
             className="text-xl md:text-2xl text-[var(--color-neutral-600)] mb-12 max-w-2xl mx-auto"

@@ -90,9 +90,9 @@ const STEPS = [
 ];
 
 const TIMELINES = [
-  { type: '標準件', duration: '3–5 個工作天', surcharge: '無加價', color: 'bg-[var(--color-primary-50)] border-[var(--color-primary-200)]', badge: 'bg-[var(--color-primary-100)] text-[var(--color-primary-700)]' },
-  { type: '急件（48 小時）', duration: '2 個工作天', surcharge: '加收 30%', color: 'bg-amber-50 border-amber-200', badge: 'bg-amber-100 text-amber-700' },
-  { type: '急急件（24 小時）', duration: '1 個工作天', surcharge: '加收 50%', color: 'bg-orange-50 border-orange-200', badge: 'bg-orange-100 text-orange-700' },
+  { type: '標準件', duration: '7–14 個工作天', surcharge: '無加價', color: 'bg-[var(--color-primary-50)] border-[var(--color-primary-200)]', badge: 'bg-[var(--color-primary-100)] text-[var(--color-primary-700)]' },
+  { type: '急件', duration: '7 個工作天', surcharge: '客製化報價', color: 'bg-amber-50 border-amber-200', badge: 'bg-amber-100 text-amber-700' },
+  { type: '其他天數需求', duration: '視情況處裡', surcharge: '客製化報價', color: 'bg-orange-50 border-orange-200', badge: 'bg-orange-100 text-orange-700' },
 ];
 
 const FAQS = [
